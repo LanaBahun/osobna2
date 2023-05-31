@@ -2244,7 +2244,7 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			content: '\f00c';
-			background-color: #ffbff0;
+			background-color:#ffbff0 #;
 			border-color: #ffbff0;
 			color: #ffffff;
 		}
@@ -3274,7 +3274,7 @@ input, select, textarea {
 		}
 
 			#wrapper > section > header:before {
-				background: #43d9b8;
+				background: #f26bac;
 				content: '';
 				display: block;
 				margin-top: 1rem;
@@ -3287,7 +3287,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
-					background: #43d9b8;
+					background: #f26bac;
 					content: '';
 					display: block;
 					height: 2px;
@@ -3296,7 +3296,7 @@ input, select, textarea {
 				}
 
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
-					background: #43d9b8;
+					background: #f26bac;
 					border-radius: 0.5rem;
 					content: '';
 					display: block;
